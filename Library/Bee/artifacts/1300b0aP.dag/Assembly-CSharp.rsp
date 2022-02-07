@@ -305,6 +305,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Follow.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
