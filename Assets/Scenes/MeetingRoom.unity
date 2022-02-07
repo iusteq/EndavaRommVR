@@ -3123,7 +3123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8a8de60a39be0143997f1a6609f2dcd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.06
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8a8de60a39be0143997f1a6609f2dcd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3131,7 +3131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8a8de60a39be0143997f1a6609f2dcd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.64
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c8a8de60a39be0143997f1a6609f2dcd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3219,9 +3219,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342543903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57a2fc23c347e047b7d8a4afe9a166c, type: 3}
+  m_Script: {fileID: 11500000, guid: 947878048faa68c448cae7575800afd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllerNode: 4
+  characterController: {fileID: 1407282629}
 --- !u!1 &1407282623
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,7 +3380,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 2.5
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
