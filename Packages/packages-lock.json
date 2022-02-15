@@ -1,17 +1,20 @@
 {
   "dependencies": {
     "com.autodesk.fbx": {
-      "version": "4.0.1",
+      "version": "4.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.9.0",
+      "version": "1.15.7",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.services.core": "1.0.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -22,17 +25,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.formats.fbx": {
-      "version": "4.0.1",
+      "version": "4.1.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.timeline": "1.0.0",
-        "com.autodesk.fbx": "4.0.1"
+        "com.unity.timeline": "1.5.2",
+        "com.autodesk.fbx": "4.1.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.7",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -41,7 +44,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.11",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -57,10 +60,28 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.0.2",
+      "version": "1.2.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.core": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.subsystemregistration": {
@@ -93,7 +114,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.5.6",
+      "version": "1.6.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -114,28 +135,33 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.6.1",
+      "version": "1.7.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.ai": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.physics2d": "1.0.0"
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.core-utils": {
+      "version": "2.0.0-pre.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "1.0.0-pre.8",
+      "version": "2.0.0-pre.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.inputsystem": "1.0.2",
+        "com.unity.inputsystem": "1.2.0",
         "com.unity.ugui": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.7",
+        "com.unity.xr.core-utils": "2.0.0-pre.6",
+        "com.unity.xr.legacyinputhelpers": "2.1.8",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.physics": "1.0.0"
@@ -143,7 +169,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.7",
+      "version": "2.1.8",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -153,7 +179,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.1.0",
+      "version": "4.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -166,7 +192,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "1.10.0",
+      "version": "1.11.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
