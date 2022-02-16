@@ -4,9 +4,12 @@ ScriptsOnlyBuild:
     - Follow
     - LoginManager
     - LoginUIManager
+    - MarketPickUp
     - MovementRecognizer
     - Seat
     - SitDown
+    - SitUp
+    - TurnOnLight
     - VRKeyboardManager
     - VRKeys.BackspaceKey
     - VRKeys.CancelKey
@@ -69,7 +72,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
-    - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
     - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
     - UnityEngine.XR.Interaction.Toolkit.XRController
@@ -355,8 +357,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2174}
     - Class: 114
-      Script: {instanceID: 2526}
-    - Class: 114
       Script: {instanceID: 3016}
     - Class: 114
       Script: {instanceID: 3144}
@@ -398,6 +398,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9512}
     - Class: 114
       Script: {instanceID: 9830}
+    - Class: 114
+      Script: {instanceID: 26070}
+    - Class: 114
+      Script: {instanceID: 43280}
+    - Class: 114
+      Script: {instanceID: 48596}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -411,6 +417,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -2855,8 +2863,26 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0af672135b89f80fd71399a6db4b1e32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SitUp
+  - hash:
+      serializedVersion: 2
+      Hash: 16aea7cedf7749eed7ba6c7976d277ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MarketPickUp
+  - hash:
+      serializedVersion: 2
+      Hash: df8509351312ab95ec3eaca135c93461
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TurnOnLight
   platform: 13
   scenePathNames:
   - Assets/Scenes/Login.unity
   - Assets/Scenes/MeetingRoom.unity
-  playerPath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/tele7.apk
+  playerPath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/tele19.apk

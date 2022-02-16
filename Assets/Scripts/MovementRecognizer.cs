@@ -63,12 +63,14 @@ public class MovementRecognizer : MonoBehaviour
 
     void StartMovement()
     {
+        float Xpos = movementSource.position.x;
+        float Ypos = movementSource.position.y;
         isMoving = true;
         positionsList.Clear();
         positionsList.Add(movementSource.position);
 
         if(testingObject)
-            Instantiate(testingObject, movementSource.position, Quaternion.identity);
+            Instantiate(testingObject, new Vector3(Xpos,Ypos,9.10f), Quaternion.identity);
     }
 
     void StopMovement()

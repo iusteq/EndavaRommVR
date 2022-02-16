@@ -15,6 +15,7 @@ public class SitDown : MonoBehaviour
     public XRNode controllerNode;
 
     int count = 0;
+    bool isDown = false;
 
     private void Awake()
     {
@@ -29,6 +30,7 @@ public class SitDown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //RigNormal = GetComponent<GameObject>();
         RigSitDown.SetActive(false);
         SitDownCanvas.SetActive(false);
         SitDownQuestion.SetActive(false);
@@ -61,6 +63,13 @@ public class SitDown : MonoBehaviour
                         SitDownCanvas.SetActive(false);
                         SitDownQuestion.SetActive(false);
                     }
+                    if(isDown)
+                    {
+                        RigNormal.SetActive(true);
+                        RigSitDown.SetActive(false);
+                        SitDownCanvas.SetActive(false);
+                        SitDownQuestion.SetActive(false);
+                    }
                 }
 
             }
@@ -88,11 +97,13 @@ public class SitDown : MonoBehaviour
     {
         RigNormal.SetActive(false);
         RigSitDown.SetActive(true);
+        isDown = true;
     }
 
     public void OnNoButton()
     {
         SitDownCanvas.SetActive(false);
         SitDownQuestion.SetActive(false);
+        isDown = false;
     }
 }
