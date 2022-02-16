@@ -2,68 +2,62 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class MovementRecognizer : MonoBehaviour
 {
-    List<InputDevice> devices;
     public XRNode controllerNode;
-
-    private bool isMoving = false;
-    public float inputThreshold = 0.1f;
     public Transform movementSource;
     public GameObject testingObject;
+    public InputHelpers.Button inputButton;
+    public RaycastHit hit;
+
+    private bool isMoving = false;
+    public float inputThreshold = 0.01f;
+    public float newThreshold = 0.05f;
 
     private List<Vector3> positionsList = new List<Vector3>();
+    private bool isDrawable=false;
 
-    private void Awake()
-    {
-        devices = new List<InputDevice>();
-    }
-
-    void GetDevice()
-    {
-        InputDevices.GetDevicesAtXRNode(controllerNode, devices);
-    }
-
-    // Start is called before the first frame update
     void Start()
     {
-        GetDevice();
+       
+    }
+
+    void Update()
+    {
+        InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(controllerNode), inputButton, out bool isPressed, inputThreshold);
+
+        if (!isMoving && isPressed && isDrawable)
+        {
+            StartMovement();
+        }
+
+        else if ((isMoving && !isPressed) || !isDrawable)
+        {
+            StopMovement();
+        }
+
+        else if (isMoving && isPressed && isDrawable)
+        {
+            UpdateMovement();
+        }
     }
 
     // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        GetDevice();
-        foreach (var device in devices)
+        if(collision.gameObject.name== "DrawingBoard")
         {
-            Debug.Log(device.name + " " + device.characteristics);
+            isDrawable = true;
+        }
+    }
 
-            if (device.isValid)
-            {
-                bool inputValue;
-
-                if (device.TryGetFeatureValue(CommonUsages.triggerButton, out inputValue) && inputValue) //butonul b
-                {
-                    if(!isMoving)
-                    {
-                        StartMovement();
-                    }
-                    else if (isMoving)
-                    {
-                        UpdateMovement();
-                    }
-                }
-                else
-                {
-                    if(isMoving)
-                    {
-                        StopMovement();
-                    }
-                }
-
-            }
-
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.name == "DrawingBoard")
+        {
+            isDrawable = false;
         }
     }
 
@@ -86,7 +80,7 @@ public class MovementRecognizer : MonoBehaviour
     {
         Vector3 lastPosition = positionsList[positionsList.Count - 1];
 
-        if( Vector3.Distance(movementSource.position, lastPosition) > inputThreshold)
+        if( Vector3.Distance(movementSource.position, lastPosition) > newThreshold)
         {
             positionsList.Add(movementSource.position);
 

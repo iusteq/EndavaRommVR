@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/iiosub/OneDrive - ENDAVA/Documents/GitHub/EndavaRommVR/Packages/manifest.json
+    m_FilePath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637800034314838579
-    m_Hash: 60259040
+      ticks: 637805223457189929
+    m_Hash: 2451205305
   m_LockFileStatus:
-    m_FilePath: C:/Users/iiosub/OneDrive - ENDAVA/Documents/GitHub/EndavaRommVR/Packages/packages-lock.json
+    m_FilePath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637800034314888583
-    m_Hash: 3723105614
+      ticks: 637805223457189929
+    m_Hash: 358386547
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/iiosub/OneDrive - ENDAVA/Documents/GitHub/EndavaRommVR/Packages
-m_EditorVersion: 2021.2.8f1 (d0e5f0a7b06a)
+m_ProjectPath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/Packages
+m_EditorVersion: 2021.1.4f1 (4cd64a618c1b)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.15.7
   testable: 0
   isDirectDependency: 1
   version: 1.15.7
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.collab-proxy@1.15.7
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.collab-proxy@1.15.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -93,6 +93,24 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
+    - 1.3.9
+    - 1.4.9
+    - 1.5.7
+    - 1.6.0
+    - 1.7.1
+    - 1.8.0
+    - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.15.1
+    - 1.15.4
     - 1.15.7
     - 1.15.9
     - 1.15.12
@@ -106,7 +124,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.12
+    verified: 1.3.9
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
@@ -140,7 +158,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637744672890000000
   documentationUrl: 
@@ -151,14 +172,14 @@ m_ResolvedPackages:
     revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
     path: 
   unityLifecycle:
-    version: 1.15.7
+    version: 
     nextVersion: 
 - packageId: com.unity.formats.fbx@4.1.2
   testable: 0
   isDirectDependency: 1
   version: 4.1.2
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.formats.fbx@4.1.2
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.formats.fbx@4.1.2
   assetPath: Packages/com.unity.formats.fbx
   name: com.unity.formats.fbx
   displayName: FBX Exporter
@@ -199,8 +220,12 @@ m_ResolvedPackages:
     - 4.1.1
     - 4.1.2
     compatible:
+    - 4.0.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.1.1
     - 4.1.2
-    verified: 4.1.2
+    verified: 4.0.1
   dependencies:
   - name: com.unity.timeline
     version: 1.5.2
@@ -232,7 +257,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637733605130000000
   documentationUrl: 
@@ -243,14 +271,14 @@ m_ResolvedPackages:
     revision: 2daae3674ab93a799fbb71611abb1440e5d0e527
     path: 
   unityLifecycle:
-    version: 4.1.2
+    version: 
     nextVersion: 
 - packageId: com.unity.ide.rider@3.0.9
   testable: 0
   isDirectDependency: 1
   version: 3.0.9
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ide.rider@3.0.9
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ide.rider@3.0.9
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -296,6 +324,9 @@ m_ResolvedPackages:
     - 3.0.10
     - 3.0.12
     compatible:
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
     - 3.0.9
     - 3.0.10
     - 3.0.12
@@ -314,7 +345,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637762012950000000
   documentationUrl: 
@@ -325,14 +359,14 @@ m_ResolvedPackages:
     revision: bbc029723f4d157f759dba0f2d438dfcec2e73eb
     path: 
   unityLifecycle:
-    version: 3.0.9
+    version: 
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.12
   testable: 0
   isDirectDependency: 1
   version: 2.0.12
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -367,6 +401,10 @@ m_ResolvedPackages:
     - 2.0.12
     - 2.0.14
     compatible:
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
     - 2.0.12
     - 2.0.14
     verified: 2.0.14
@@ -390,7 +428,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637720564750000000
   documentationUrl: 
@@ -401,14 +442,14 @@ m_ResolvedPackages:
     revision: 8d436ff053b9c59677b5e9799208143553cd02d9
     path: 
   unityLifecycle:
-    version: 2.0.12
+    version: 
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.4
   testable: 0
   isDirectDependency: 1
   version: 1.2.4
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ide.vscode@1.2.4
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ide.vscode@1.2.4
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -438,6 +479,7 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     compatible:
+    - 1.2.3
     - 1.2.4
     verified: 1.2.4
   dependencies: []
@@ -450,7 +492,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637660806170000000
   documentationUrl: 
@@ -461,14 +506,14 @@ m_ResolvedPackages:
     revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
     path: 
   unityLifecycle:
-    version: 1.2.4
+    version: 
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
   isDirectDependency: 1
   version: 1.1.29
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.test-framework@1.1.29
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.test-framework@1.1.29
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -518,6 +563,9 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
     - 1.1.29
     - 1.1.30
     - 2.0.1-pre.12
@@ -547,7 +595,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637647922650000000
   documentationUrl: 
@@ -558,14 +609,14 @@ m_ResolvedPackages:
     revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
     path: 
   unityLifecycle:
-    version: 1.1.29
+    version: 
     nextVersion: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -682,6 +733,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 4.0.0-pre.1
     compatible:
+    - 3.0.4
+    - 3.0.5
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
@@ -709,7 +762,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -720,14 +776,14 @@ m_ResolvedPackages:
     revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 
     nextVersion: 
 - packageId: com.unity.timeline@1.6.3
   testable: 0
   isDirectDependency: 1
   version: 1.6.3
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.timeline@1.6.3
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.timeline@1.6.3
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -814,11 +870,21 @@ m_ResolvedPackages:
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     compatible:
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
     - 1.6.3
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
-    verified: 1.6.4
+    verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -850,7 +916,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637703491050000000
   documentationUrl: 
@@ -861,14 +930,14 @@ m_ResolvedPackages:
     revision: 527d3ba73eae5d77407d8300c31dd62770a7409f
     path: 
   unityLifecycle:
-    version: 1.6.3
+    version: 
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -906,13 +975,16 @@ m_ResolvedPackages:
   - Unity UI
   - Canvas
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -923,14 +995,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.visualscripting@1.7.6
   testable: 0
   isDirectDependency: 1
   version: 1.7.6
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.visualscripting@1.7.6
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.visualscripting@1.7.6
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -972,9 +1044,17 @@ m_ResolvedPackages:
     - 1.7.7
     - 1.8.0-pre.1
     compatible:
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
     - 1.7.6
     - 1.7.7
-    verified: 1.7.7
+    verified: 1.5.2
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -997,7 +1077,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637722460580000000
   documentationUrl: 
@@ -1008,14 +1091,14 @@ m_ResolvedPackages:
     revision: 64599611822e37717efdd2fa1a0576e1984155fc
     path: 
   unityLifecycle:
-    version: 1.7.6
+    version: 
     nextVersion: 
 - packageId: com.unity.xr.interaction.toolkit@2.0.0-pre.7
   testable: 0
   isDirectDependency: 1
   version: 2.0.0-pre.7
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.0-pre.7
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.0-pre.7
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1128,7 +1211,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637795826950000000
   documentationUrl: 
@@ -1140,13 +1226,13 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 
-    nextVersion: 1.0.0-pre.6
+    nextVersion: 
 - packageId: com.unity.xr.management@4.2.0
   testable: 0
   isDirectDependency: 1
   version: 4.2.0
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.management@4.2.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.management@4.2.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1213,9 +1299,17 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
     compatible:
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
     - 4.2.0
     - 4.2.1
-    verified: 4.2.1
+    verified: 4.0.7
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -1257,7 +1351,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637704350680000000
   documentationUrl: 
@@ -1268,14 +1365,14 @@ m_ResolvedPackages:
     revision: c8fb6583d6d04516909a8d2ab999a1dbe90ade50
     path: 
   unityLifecycle:
-    version: 4.2.0
+    version: 
     nextVersion: 
 - packageId: com.unity.xr.oculus@1.11.0
   testable: 0
   isDirectDependency: 1
   version: 1.11.0
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.oculus@1.11.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.oculus@1.11.0
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -1343,15 +1440,19 @@ m_ResolvedPackages:
     - 3.0.0-pre.2
     - 3.0.0-pre.4
     compatible:
+    - 1.9.0
+    - 1.9.1
+    - 1.10.0-preview.1
+    - 1.10.0-preview.2
+    - 1.10.0
+    - 1.10.1-preview.3
     - 1.11.0
     - 1.11.2
     - 2.0.0-preview.1
     - 2.0.0-preview.2
     - 2.0.0-preview.4
-    - 3.0.0-pre.1
     - 3.0.0-pre.2
-    - 3.0.0-pre.4
-    verified: 1.11.2
+    verified: 1.9.1
   dependencies:
   - name: com.unity.xr.management
     version: 4.0.1
@@ -1395,7 +1496,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637703219930000000
   documentationUrl: 
@@ -1406,14 +1510,14 @@ m_ResolvedPackages:
     revision: 6bcd9f318b55832de811a794e4f987aab9bb0950
     path: 
   unityLifecycle:
-    version: 1.11.0
-    nextVersion: 3.0.0-pre.1
+    version: 
+    nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1437,13 +1541,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1454,14 +1561,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1484,13 +1591,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1501,14 +1611,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1532,13 +1642,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1549,14 +1662,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1580,13 +1693,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1597,14 +1713,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1628,13 +1744,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1645,14 +1764,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1680,13 +1799,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1697,14 +1819,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1736,13 +1858,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1753,14 +1878,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1785,13 +1910,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1802,14 +1930,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1833,13 +1961,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1850,14 +1981,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1881,13 +2012,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1898,14 +2032,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1929,13 +2063,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1946,14 +2083,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1977,13 +2114,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1994,14 +2134,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2025,13 +2165,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2042,14 +2185,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2077,13 +2220,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2094,14 +2240,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2125,13 +2271,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2142,14 +2291,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2181,13 +2330,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2198,14 +2350,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2232,13 +2384,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2249,14 +2404,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2280,13 +2435,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2297,14 +2455,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2344,13 +2502,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2361,14 +2522,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2392,13 +2553,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2409,14 +2573,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2448,13 +2612,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2465,14 +2632,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2496,13 +2663,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2513,14 +2683,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2552,13 +2722,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2569,14 +2742,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2608,13 +2781,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2625,14 +2801,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2664,13 +2840,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2681,14 +2860,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2736,13 +2915,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2753,14 +2935,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2788,13 +2970,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2805,14 +2990,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2848,13 +3033,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2865,14 +3053,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2910,13 +3098,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2927,14 +3118,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2958,13 +3149,16 @@ m_ResolvedPackages:
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2975,14 +3169,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3018,13 +3212,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3035,14 +3232,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3070,13 +3267,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3094,7 +3294,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3129,13 +3329,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3148,105 +3351,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.xr.legacyinputhelpers@2.1.8
-  testable: 0
-  isDirectDependency: 0
-  version: 2.1.8
-  source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
-  assetPath: Packages/com.unity.xr.legacyinputhelpers
-  name: com.unity.xr.legacyinputhelpers
-  displayName: XR Legacy Input Helpers
-  author:
-    name: 
-    email: 
-    url: 
-  category: XR
-  type: 
-  description: This package includes the tracked pose driver for the legacy input
-    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
-    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
-    track input devices, the XR Bindings Seeding Tool adds a menu item under the
-    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
-    Bindings
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3
-    - 1.3.1
-    - 1.3.2
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.11
-    - 2.0.1
-    - 2.0.2
-    - 2.0.4
-    - 2.0.6
-    - 2.0.8
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.6
-    - 2.1.7
-    - 2.1.8
-    compatible:
-    - 2.1.8
-    verified: 2.1.8
-  dependencies:
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  keywords:
-  - TPD
-  - Tracked Pose Driver
-  - XR
-  - Input
-  - Helpers
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637623088970000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
-    path: 
-  unityLifecycle:
-    version: 2.1.8
-    nextVersion: 
 - packageId: com.unity.subsystemregistration@1.1.0
   testable: 0
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.subsystemregistration@1.1.0
   assetPath: Packages/com.unity.subsystemregistration
   name: com.unity.subsystemregistration
   displayName: Subsystem Registration
@@ -3291,7 +3401,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637314426150000000
   documentationUrl: 
@@ -3302,14 +3415,14 @@ m_ResolvedPackages:
     revision: 72584ba5248fbe79e560e795ad819f876954fceb
     path: 
   unityLifecycle:
-    version: 1.1.0
+    version: 
     nextVersion: 
 - packageId: com.unity.inputsystem@1.2.0
   testable: 0
   isDirectDependency: 0
   version: 1.2.0
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.inputsystem@1.2.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.inputsystem@1.2.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -3358,9 +3471,16 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.3.0
     compatible:
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
     - 1.2.0
     - 1.3.0
-    verified: 1.2.0
+    verified: 1.0.2
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -3391,7 +3511,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637714457070000000
   documentationUrl: 
@@ -3402,14 +3525,14 @@ m_ResolvedPackages:
     revision: 0343e557f75946cf6fad4be48dd10276d535f490
     path: 
   unityLifecycle:
-    version: 1.2.0
+    version: 
     nextVersion: 
 - packageId: com.unity.xr.core-utils@2.0.0-pre.6
   testable: 0
   isDirectDependency: 0
   version: 2.0.0-pre.6
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.core-utils@2.0.0-pre.6
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.core-utils@2.0.0-pre.6
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -3466,7 +3589,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637756000660000000
   documentationUrl: 
@@ -3479,12 +3605,109 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.8
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.8
+  source: 1
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    compatible:
+    - 2.1.7
+    - 2.1.8
+    verified: 2.1.8
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637623088970000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3506,10 +3729,8 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.5
     - 1.0.6
-    - 2.0.2
     compatible:
     - 1.0.6
-    - 2.0.2
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3524,7 +3745,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3535,14 +3759,14 @@ m_ResolvedPackages:
     revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
     path: 
   unityLifecycle:
-    version: 1.0.6
+    version: 
     nextVersion: 
 - packageId: com.autodesk.fbx@4.1.1
   testable: 0
   isDirectDependency: 0
   version: 4.1.1
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.autodesk.fbx@4.1.1
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.autodesk.fbx@4.1.1
   assetPath: Packages/com.autodesk.fbx
   name: com.autodesk.fbx
   displayName: Autodesk FBX SDK for Unity
@@ -3575,8 +3799,11 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.1.1
     compatible:
+    - 4.0.1
+    - 4.1.0-pre.1
+    - 4.1.0
     - 4.1.1
-    verified: 4.1.1
+    verified: 4.0.1
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3592,7 +3819,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637668642230000000
   documentationUrl: 
@@ -3603,14 +3833,14 @@ m_ResolvedPackages:
     revision: b6cd1211ff8824752e3dcbf05f426bac266606a0
     path: 
   unityLifecycle:
-    version: 4.1.1
+    version: 
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@2.0.0
   testable: 0
   isDirectDependency: 0
   version: 2.0.0
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -3644,12 +3874,10 @@ m_ResolvedPackages:
     - 2.0.0-preview.2
     - 2.0.0
     - 2.0.1-preview.1
-    - 2.0.2
     compatible:
     - 2.0.0
     - 2.0.1-preview.1
-    - 2.0.2
-    verified: 2.0.2
+    verified: 2.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3660,7 +3888,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637237898320000000
   documentationUrl: 
@@ -3671,14 +3902,14 @@ m_ResolvedPackages:
     revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 
     nextVersion: 
 - packageId: com.unity.services.core@1.0.1
   testable: 0
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\iiosub\OneDrive - ENDAVA\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.services.core@1.0.1
+  resolvedPath: E:\Users\OneDrive\Documents\GitHub\EndavaRommVR\Library\PackageCache\com.unity.services.core@1.0.1
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3703,7 +3934,6 @@ m_ResolvedPackages:
     - 1.1.0-pre.9
     - 1.1.0-pre.10
     - 1.1.0-pre.11
-    - 1.1.0-pre.41
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
@@ -3711,8 +3941,7 @@ m_ResolvedPackages:
     - 1.1.0-pre.9
     - 1.1.0-pre.10
     - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    verified: 1.0.1
+    verified: 
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3727,7 +3956,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+  hasRegistry: 1
   hideInEditor: 1
+  entitlements:
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637604883250000000
   documentationUrl: 
@@ -3738,5 +3970,5 @@ m_ResolvedPackages:
     revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
     path: 
   unityLifecycle:
-    version: 1.0.1
-    nextVersion: 1.1.0-pre.8
+    version: 
+    nextVersion: 
