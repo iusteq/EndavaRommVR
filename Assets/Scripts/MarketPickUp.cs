@@ -42,7 +42,7 @@ public class MarketPickUp : MonoBehaviour
             {
                 bool inputValue;
 
-                if (device.TryGetFeatureValue(CommonUsages.triggerButton, out inputValue) && inputValue) 
+                if (device.TryGetFeatureValue(CommonUsages.primaryButton, out inputValue) && inputValue) 
                 {
                     if (count == 0)
                     {

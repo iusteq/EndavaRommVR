@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ChangeColor
+    - Draw
     - Follow
     - LoginManager
     - LoginUIManager
@@ -220,57 +222,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6062}
     - Class: 114
-      Script: {instanceID: 6224}
+      Script: {instanceID: 6226}
     - Class: 114
-      Script: {instanceID: 6260}
+      Script: {instanceID: 6262}
     - Class: 114
-      Script: {instanceID: 6320}
+      Script: {instanceID: 6322}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6340}
     - Class: 114
-      Script: {instanceID: 6712}
+      Script: {instanceID: 6714}
     - Class: 114
-      Script: {instanceID: 6804}
+      Script: {instanceID: 6806}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6862}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6952}
     - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 7112}
     - Class: 114
-      Script: {instanceID: 7302}
+      Script: {instanceID: 7308}
     - Class: 114
-      Script: {instanceID: 7602}
+      Script: {instanceID: 7608}
     - Class: 114
-      Script: {instanceID: 7642}
+      Script: {instanceID: 7648}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 7746}
     - Class: 114
-      Script: {instanceID: 8000}
+      Script: {instanceID: 8008}
     - Class: 114
-      Script: {instanceID: 8230}
+      Script: {instanceID: 8238}
     - Class: 114
-      Script: {instanceID: 8516}
+      Script: {instanceID: 8524}
     - Class: 114
-      Script: {instanceID: 8622}
+      Script: {instanceID: 8630}
     - Class: 114
-      Script: {instanceID: 8748}
+      Script: {instanceID: 8756}
     - Class: 114
-      Script: {instanceID: 9074}
+      Script: {instanceID: 9084}
     - Class: 114
-      Script: {instanceID: 9192}
+      Script: {instanceID: 9202}
     - Class: 114
-      Script: {instanceID: 9512}
+      Script: {instanceID: 9522}
     - Class: 114
-      Script: {instanceID: 9678}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9720}
+      Script: {instanceID: 9730}
     - Class: 114
-      Script: {instanceID: 9830}
+      Script: {instanceID: 9840}
     - Class: 114
-      Script: {instanceID: 9848}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 10234}
+      Script: {instanceID: 10244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -375,35 +377,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6218}
     - Class: 114
-      Script: {instanceID: 6836}
+      Script: {instanceID: 6340}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6838}
     - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 6952}
     - Class: 114
-      Script: {instanceID: 7302}
+      Script: {instanceID: 7048}
     - Class: 114
-      Script: {instanceID: 7538}
+      Script: {instanceID: 7112}
     - Class: 114
-      Script: {instanceID: 7642}
+      Script: {instanceID: 7188}
     - Class: 114
-      Script: {instanceID: 7724}
+      Script: {instanceID: 7308}
     - Class: 114
-      Script: {instanceID: 8230}
+      Script: {instanceID: 7544}
     - Class: 114
-      Script: {instanceID: 9194}
+      Script: {instanceID: 7648}
     - Class: 114
-      Script: {instanceID: 9512}
+      Script: {instanceID: 7730}
     - Class: 114
-      Script: {instanceID: 9830}
+      Script: {instanceID: 7818}
     - Class: 114
-      Script: {instanceID: 26070}
+      Script: {instanceID: 8238}
     - Class: 114
-      Script: {instanceID: 43280}
+      Script: {instanceID: 8986}
     - Class: 114
-      Script: {instanceID: 48596}
+      Script: {instanceID: 9204}
+    - Class: 114
+      Script: {instanceID: 9522}
+    - Class: 114
+      Script: {instanceID: 9840}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -879,7 +885,7 @@ ScriptsOnlyBuild:
     className: SitDown
   - hash:
       serializedVersion: 2
-      Hash: d0ed291f854f804fa10c56356dde90b6
+      Hash: 8d55977c4414fde92940d5cc1f351167
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MovementRecognizer
@@ -1773,6 +1779,12 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
+      Hash: df8509351312ab95ec3eaca135c93461
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TurnOnLight
+  - hash:
+      serializedVersion: 2
       Hash: 4fe8955e1c662935371b0936cafbb89b
     assemblyName: Assembly-CSharp.dll
     namespaceName: Photon.Chat.UtilityScripts
@@ -1977,6 +1989,12 @@ ScriptsOnlyBuild:
     className: NamePickGui
   - hash:
       serializedVersion: 2
+      Hash: 0bc5defde3fc62bdaba4502242f9a257
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeColor
+  - hash:
+      serializedVersion: 2
       Hash: 80d2851602cb4bcb6f559596c5eb955b
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -2005,6 +2023,12 @@ ScriptsOnlyBuild:
     assemblyName: FbxBuildTestAssets.dll
     namespaceName: Autodesk.Fbx.BuildTests
     className: ExportEmptyFbx
+  - hash:
+      serializedVersion: 2
+      Hash: 16aea7cedf7749eed7ba6c7976d277ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MarketPickUp
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2131,6 +2155,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0af672135b89f80fd71399a6db4b1e32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SitUp
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2517,6 +2547,12 @@ ScriptsOnlyBuild:
     className: LobbyMainPanel
   - hash:
       serializedVersion: 2
+      Hash: 13990a0ab4f27a2501dfce93d3c8315b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Draw
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -2865,24 +2901,12 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 0af672135b89f80fd71399a6db4b1e32
+      Hash: d64b66c89dc25b483443e8d63f8445ed
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SitUp
-  - hash:
-      serializedVersion: 2
-      Hash: 16aea7cedf7749eed7ba6c7976d277ee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MarketPickUp
-  - hash:
-      serializedVersion: 2
-      Hash: df8509351312ab95ec3eaca135c93461
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TurnOnLight
+    className: ColorActiv
   platform: 13
   scenePathNames:
   - Assets/Scenes/Login.unity
   - Assets/Scenes/MeetingRoom.unity
-  playerPath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/tele19.apk
+  playerPath: E:/Users/OneDrive/Documents/GitHub/EndavaRommVR/colors8.apk
