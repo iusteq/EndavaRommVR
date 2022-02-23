@@ -113,8 +113,8 @@
     <Compile Include="Assets\Scripts\Follow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\VRKeys\Scripts\BackspaceKey.cs" />
-    <Compile Include="Assets\Scripts\SitUp.cs" />
     <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\GestureIO.cs" />
+    <Compile Include="Assets\Scripts\ColorActiv.cs" />
     <Compile Include="Assets\VRKeys\Scripts\ClearKey.cs" />
     <Compile Include="Assets\Scripts\ActionBasedControllerManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -142,7 +142,6 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\VRKeys\Scripts\LayoutList.cs" />
-    <Compile Include="Assets\Scripts\ColorActiv.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

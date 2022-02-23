@@ -388,7 +388,6 @@
 "Assets/Scripts/MovementRecognizer.cs"
 "Assets/Scripts/Seat.cs"
 "Assets/Scripts/SitDown.cs"
-"Assets/Scripts/SitUp.cs"
 "Assets/Scripts/TurnOnLight.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
